@@ -1,0 +1,39 @@
+.contact-wrap textarea{
+	height: 200px;
+}
+.contact-wrap button{
+	border: 1px solid #999;
+	padding: 10px 30px;
+}
+.contact-wrap ul li{
+	padding: 30px 30px;
+	background: #296dc1;
+	color: #fff;
+	position: relative;
+	padding-left: 90px;
+}
+.contact-wrap ul li:nth-child(odd){
+	background:#0552b1;
+}
+.contact-wrap ul li p{
+	color: #fff;
+}
+.contact-wrap ul li i{
+	position: absolute;
+	left: 35px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	font-size: 35px;
+}
+.contact-wrap h3{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+#googleMap{
+	height: 500px;
+	width: 100%;
+	background: #296dc1;
+	margin-top: 100px;
+}
